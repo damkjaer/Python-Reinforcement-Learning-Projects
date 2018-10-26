@@ -3,7 +3,9 @@ Created on Mar 25, 2018
 
 @author: ywz
 '''
-import numpy, random, os
+import numpy
+import os
+import random
 import tensorflow as tf
 from replay_memory import ReplayMemory
 from optimizer import Optimizer
